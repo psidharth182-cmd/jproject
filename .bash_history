@@ -39,3 +39,23 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ssh -T git@github.com
 git push -u origin main
+ls
+nano demo.sh
+./demo.sh
+ls
+vi demo.sh
+ls
+./demos.sh
+./demo.sh
+chmod 777 demo.sh 
+./demo.sh
+la
+git add .
+git commit -m "my 2nd commit"
+git push
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+touch new.txt
+git add .
+git commit -m "my 3d commit"
+git push
