@@ -59,3 +59,28 @@ touch new.txt
 git add .
 git commit -m "my 3d commit"
 git push
+ls
+vi new.txt 
+git add .
+git commmit -m "test build"
+git commit -m "test build"
+git push
+vi demo.sh 
+git add .
+git commit -m "test build"
+git push
+vi demo.sh 
+git add demo.sh 
+git commit -m "added jenkins variable to "
+git push
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+git push
+ls
+vi new.txt 
+vi demo.sh 
+ls
+vi demo.sh
+git add demo.sh 
+git commit -m "added jenkins variable to "
+git push

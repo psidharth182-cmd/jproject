@@ -1,8 +1,8 @@
+
 #!/bin/bash
 
-echo "Starting Jenkins build 1"
+echo "Starting build"
 
-echo "This is my first failure test"
+mkdir /test-folder
 
-exit 1
-
+echo "Build completed"
