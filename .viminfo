@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1786535563,,"wq"
+|2,0,1786535681,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -24,6 +24,10 @@
 
 # Registers:
 ""1	CHAR	0
+	
+	echo "Build completed"
+|3,1,1,0,2,0,1786535679,"","echo \"Build completed\""
+"2	CHAR	0
 	#!/bin/bash
 	
 	echo "Starting Jenkins build 1"
@@ -31,8 +35,8 @@
 	echo "This is my first failure test"
 	
 	exit 1
-|3,1,1,0,7,0,1786535556,"#!/bin/bash","","echo \"Starting Jenkins build 1\"","","echo \"This is my first failure test\"","","exit 1"
-"2	CHAR	0
+|3,0,2,0,7,0,1786535556,"#!/bin/bash","","echo \"Starting Jenkins build 1\"","","echo \"This is my first failure test\"","","exit 1"
+"3	CHAR	0
 	#!/bin/bash
 	
 	echo "=============================="
@@ -59,50 +63,58 @@
 	echo "=============================="
 	echo "Build completed"
 	echo "=============================="
-|3,0,2,0,26,0,1786532423,"#!/bin/bash","","echo \"==============================\"","echo \"       JENKINS BUILD INFO\"","echo \"==============================\"","","echo \"Job Name     : $JOB_NAME\"","echo \"Build Number : $BUILD_NUMBER\"","echo \"Build ID     : $BUILD_ID\"","echo \"Build URL    : $BUILD_URL\"","echo \"Workspace    : $WORKSPACE\"","echo \"Node Name    : $NODE_NAME\"","echo \"Git Commit   : $GIT_COMMIT\"",>37
+|3,0,3,0,26,0,1786532423,"#!/bin/bash","","echo \"==============================\"","echo \"       JENKINS BUILD INFO\"","echo \"==============================\"","","echo \"Job Name     : $JOB_NAME\"","echo \"Build Number : $BUILD_NUMBER\"","echo \"Build ID     : $BUILD_ID\"","echo \"Build URL    : $BUILD_URL\"","echo \"Workspace    : $WORKSPACE\"","echo \"Node Name    : $NODE_NAME\"","echo \"Git Commit   : $GIT_COMMIT\"",>37
 |<"echo \"Git Branch   : $GIT_BRANCH\"","","echo \"==============================\"","","echo \"Who is running the script?\"","whoami","","echo \"Current directory:\"","pwd","","echo \"==============================\"","echo \"Build completed\"","echo \"==============================\""
-"3	CHAR	0
+"4	CHAR	0
 	/bash
 	
 	
 	echo "new vishadasdsadsadsadsa"
-|3,0,3,0,4,0,1786530086,"/bash","","","echo \"new vishadasdsadsadsadsa\""
+|3,0,4,0,4,0,1786530086,"/bash","","","echo \"new vishadasdsadsadsadsa\""
 
 # File marks:
-'0  8  21  ~/demo.sh
-|4,48,8,21,1786535563,"~/demo.sh"
-'1  1  5  ~/demo.sh
-|4,49,1,5,1786534743,"~/demo.sh"
-'2  7  5  ~/demo.sh
-|4,50,7,5,1786534743,"~/demo.sh"
-'3  2  0  ~/demo.sh
-|4,51,2,0,1786534564,"~/demo.sh"
-'4  2  0  ~/demo.sh
-|4,52,2,0,1786534564,"~/demo.sh"
-'5  8  0  ~/demo.sh
-|4,53,8,0,1786534564,"~/demo.sh"
-'6  8  0  ~/demo.sh
-|4,54,8,0,1786534564,"~/demo.sh"
-'7  1  29  ~/demo.sh
-|4,55,1,29,1786534430,"~/demo.sh"
-'8  1  29  ~/demo.sh
-|4,56,1,29,1786534430,"~/demo.sh"
-'9  1  29  ~/demo.sh
-|4,57,1,29,1786534430,"~/demo.sh"
+'0  7  0  ~/demo.sh
+|4,48,7,0,1786535681,"~/demo.sh"
+'1  8  21  ~/demo.sh
+|4,49,8,21,1786535563,"~/demo.sh"
+'2  1  5  ~/demo.sh
+|4,50,1,5,1786534743,"~/demo.sh"
+'3  7  5  ~/demo.sh
+|4,51,7,5,1786534743,"~/demo.sh"
+'4  1  5  ~/demo.sh
+|4,52,1,5,1786534743,"~/demo.sh"
+'5  7  5  ~/demo.sh
+|4,53,7,5,1786534743,"~/demo.sh"
+'6  2  0  ~/demo.sh
+|4,54,2,0,1786534564,"~/demo.sh"
+'7  2  0  ~/demo.sh
+|4,55,2,0,1786534564,"~/demo.sh"
+'8  7  0  ~/demo.sh
+|4,56,7,0,1786534564,"~/demo.sh"
+'9  7  0  ~/demo.sh
+|4,57,7,0,1786534564,"~/demo.sh"
 
 # Jumplist (newest first):
+-'  7  0  ~/demo.sh
+|4,39,7,0,1786535681,"~/demo.sh"
 -'  8  21  ~/demo.sh
 |4,39,8,21,1786535563,"~/demo.sh"
+-'  1  5  ~/demo.sh
+|4,39,1,5,1786535028,"~/demo.sh"
 -'  1  5  ~/demo.sh
 |4,39,1,5,1786535028,"~/demo.sh"
 -'  7  5  ~/demo.sh
 |4,39,7,5,1786534743,"~/demo.sh"
 -'  2  0  ~/demo.sh
 |4,39,2,0,1786534735,"~/demo.sh"
+-'  2  0  ~/demo.sh
+|4,39,2,0,1786534735,"~/demo.sh"
 -'  8  0  ~/demo.sh
 |4,39,8,0,1786534735,"~/demo.sh"
 -'  8  0  ~/demo.sh
 |4,39,8,0,1786534564,"~/demo.sh"
+-'  3  29  ~/demo.sh
+|4,39,3,29,1786534550,"~/demo.sh"
 -'  3  29  ~/demo.sh
 |4,39,3,29,1786534550,"~/demo.sh"
 -'  3  29  ~/demo.sh
@@ -125,6 +137,10 @@
 |4,39,1,0,1786532415,"~/demo.sh"
 -'  1  0  ~/demo.sh
 |4,39,1,0,1786532392,"~/demo.sh"
+-'  26  36  ~/demo.sh
+|4,39,26,36,1786532379,"~/demo.sh"
+-'  25  36  ~/demo.sh
+|4,39,25,36,1786532379,"~/demo.sh"
 -'  27  36  ~/demo.sh
 |4,39,27,36,1786532379,"~/demo.sh"
 -'  26  36  ~/demo.sh
@@ -267,48 +283,37 @@
 |4,39,2,5,1786532372,"~/new.txt"
 -'  2  5  ~/new.txt
 |4,39,2,5,1786532372,"~/new.txt"
--'  26  36  ~/demo.sh
-|4,39,26,36,1786530097,"~/demo.sh"
--'  26  36  ~/demo.sh
-|4,39,26,36,1786530097,"~/demo.sh"
--'  1  36  ~/demo.sh
-|4,39,1,36,1786530069,"~/demo.sh"
--'  1  36  ~/demo.sh
-|4,39,1,36,1786530069,"~/demo.sh"
--'  4  30  ~/demo.sh
-|4,39,4,30,1786529411,"~/demo.sh"
--'  4  30  ~/demo.sh
-|4,39,4,30,1786529411,"~/demo.sh"
--'  4  30  ~/demo.sh
-|4,39,4,30,1786529411,"~/demo.sh"
--'  4  30  ~/demo.sh
-|4,39,4,30,1786529411,"~/demo.sh"
--'  4  30  ~/demo.sh
-|4,39,4,30,1786529411,"~/demo.sh"
--'  4  30  ~/demo.sh
-|4,39,4,30,1786529411,"~/demo.sh"
 -'  2  5  ~/new.txt
-|4,39,2,5,1786529297,"~/new.txt"
+|4,39,2,5,1786532372,"~/new.txt"
 -'  2  5  ~/new.txt
-|4,39,2,5,1786529297,"~/new.txt"
+|4,39,2,5,1786532372,"~/new.txt"
+-'  2  5  ~/new.txt
+|4,39,2,5,1786532372,"~/new.txt"
+-'  2  5  ~/new.txt
+|4,39,2,5,1786532372,"~/new.txt"
+-'  2  5  ~/new.txt
+|4,39,2,5,1786532372,"~/new.txt"
+-'  2  5  ~/new.txt
+|4,39,2,5,1786532372,"~/new.txt"
 
 # History of marks within files (newest to oldest):
 
 > ~/demo.sh
-	*	1786535563	0
-	"	8	21
-	^	8	22
-	.	8	21
+	*	1786535680	0
+	"	7	0
+	^	7	0
+	.	8	0
 	+	1	36
-	+	9	0
+	+	8	0
 	+	1	11
 	+	1	36
-	+	9	0
+	+	8	0
 	+	1	5
 	+	1	29
 	+	1	5
 	+	2	11
-	+	8	21
+	+	7	21
+	+	8	0
 
 > ~/new.txt
 	*	1786532371	0
